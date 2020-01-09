@@ -8,7 +8,6 @@
 import scrapy
 
 
-class BaiduSpiderItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+# 百度图片modle类
+class PictureItem(scrapy.Item):
+    pic_urls = scrapy.Field()  # 每一页图片的url
